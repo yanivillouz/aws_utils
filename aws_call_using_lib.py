@@ -6,7 +6,9 @@ service = 'execute-api'
 host = 'XXXXXXXXXX.execute-api.eu-west-1.amazonaws.com'
 region = 'eu-west-1'
 endpoint = 'https://XXXXXXXXXX.execute-api.eu-west-1.amazonaws.com/YYYYYYYYYY'
-
+payload = {
+	"xxxxx" : "zzzzzz"
+	}
 def main():
     # Read AWS access key from env. variables or configuration file. Best practice is NOT
     # to embed credentials in code.
